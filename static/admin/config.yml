@@ -4,7 +4,7 @@ backend:
 
 media_folder: static/img
 public_folder: /img
-site_url: https://your-site.com
+
 
 collections:
   - name: 'blog'
@@ -14,7 +14,7 @@ collections:
     slug: 'index'
     media_folder: ''
     public_folder: ''
-    path: '{{title}}/index'
+    site_url: 'https://your-site.com'
     editor:
       preview: false
     fields:
